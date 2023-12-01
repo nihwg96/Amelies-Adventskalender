@@ -7,7 +7,7 @@ const openDoor = (path, event) => {
     event.target.parentNode.style.backgroundImage = `url(${path})`;
     event.target.style.opacity = "0";
     event.target.style.backgroundColor = "#521751";
-    window.open("www.bild.de");
+    var  windowOpen = window.open("https://youtube.com/shorts/npkaNW_LeGA", "youtubetab");
 }
 
 const createCalendar = () => {
